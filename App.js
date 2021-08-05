@@ -7,7 +7,9 @@
  */
 
 import React from 'react';
-
+import Home from './Screens/Home'
+import Add from './Screens/Add'
+import Edit from './Screens/Edit'
 import {
   SafeAreaView,
   ScrollView,
@@ -27,7 +29,13 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 const App=()=>{
   return(
-  <Text>hello world</Text>
+    <>
+   <Home/>
+   <Add />
+   <Edit />
+  <Text>hello Sai Kiran</Text>
+
+  </>
   )
 }
 export default App;
